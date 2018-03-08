@@ -25,7 +25,7 @@ module.exports = async (
       delete config[flag];
       // Blend in the environment
       if (env) {
-          Object.keys(config).forEach(key => {
+          Object.keys(env).forEach(key => {
             if (typeof env[key] !== "undefined") {
                 if (typeof config[key] === "object") {
                     config[key] = Object.assign({}, config[key], env[key]);

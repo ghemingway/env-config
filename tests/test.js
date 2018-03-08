@@ -19,6 +19,7 @@ describe("env-config", () => {
 
     it("Success - 'production' env", async () => {
         let config = await envConfig("./tests/config.json", "production");
+        console.log(config);
         // TODO: Check that it is the expected config
     });
 

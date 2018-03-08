@@ -1,6 +1,6 @@
 {
   "name": "simple-env-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple environment-based config loader",
   "author": "G. Hemingway <graham.hemingway@gmail.com",
   "main": "index.js",

@@ -10,7 +10,12 @@
     "production": {
       "url": "https://testing.com",
       "mongodb": "mongodb://localhost:27017/prod",
-      "port": 443
+      "port": 443,
+      "security": {
+        "keyPath": "/foo1.pem",
+        "certPath": "/foo2.pem",
+        "caPath": "/foo3.pem"
+      }
     }
   }
 }
